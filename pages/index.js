@@ -40,7 +40,6 @@ export default function Home() {
           <p className='link'>Gmail</p>
           <p className='link'>Images</p>
           <ViewGridIcon className='h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer' />
-          <Avatar url='https://i.ibb.co/3Cgdv8m/darton-marwick.jpg' />
         </div>
       </header>
 
@@ -64,10 +63,10 @@ export default function Home() {
 
         <div className='flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4'>
           <button onClick={search} className='btn'>
-            Google Search
+            Freeze Search
           </button>
           <button onClick={search} className='btn'>
-            I'm Feeling Lucky
+            I'm Feeling Sneaky
           </button>
         </div>
       </form>
